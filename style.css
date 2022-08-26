@@ -1,0 +1,42 @@
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Dancing Script';
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Dancing Script';
+}
+body{
+    background-color: lightblue;
+}
+h1{
+    background-color: black;
+    color: rgb(38,0,255);
+    font-family: '', roboto;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-family: 'roboto';
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'roboto';
+    font-size: 25px;
+    color: black;
+}
+canvas{
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 40px blue ;}
+    to{box-shadow: 1px 1px 40px black;}
+}
